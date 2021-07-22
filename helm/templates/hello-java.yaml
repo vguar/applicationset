@@ -64,8 +64,6 @@ kind: IngressRoute
 metadata:
   name: hello-java
   namespace: hello-java
-  finalizers:
-    - kubernetes.io/example-finalizer
 spec:
   entryPoints:
     - websecure-ext
