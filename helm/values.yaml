@@ -1,0 +1,4 @@
+datadog_env: dev
+
+global:
+  k8s_name: ""
