@@ -62,7 +62,7 @@ spec:
 apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
-  name: hello-java-traefik
+  name: hello-java
   finalizers:
     - kubernetes.io/example-finalizer
 spec:
